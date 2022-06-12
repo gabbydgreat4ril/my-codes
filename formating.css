@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: rgb(1, 1, 24);
+    width: 100%;
+    min-height: 100px;
+    color: rgb(236, 234, 234);
+    border-bottom: 3px solid red;
+    position: fixed;
+    z-index: 10;
+}
+#logo img{
+    width: 150px;
+    height: 60px;
+    float: left; 
+    padding-top: 10px;
+    padding-left: 20px;
+}
+header li{
+    display: inline;
+    padding: 20px;
+    float: left;
+}
+nav{
+    float: right;
+}
+header li a{
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17;
+    font-weight: bolder;
+}
+header li a:hover{
+    color: violet;
+}
+header .current{
+    color: yellow;
+}
+#sect {
+    background-image: linear-gradient(rgba(0,0,0,0.4),  rgba(0,0,0,0.4)), url(./images/1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.mee p{
+    font-size: 20px;
+    text-align: center;
+}
+.mee button{
+    background: none;
+    color: white;
+    border: 2px solid white;
+    height: 30px;
+    width: 120px;
+    margin-top: 400px;
+    margin-left: 30px;
+}
+.mee img{
+    width: 40px;
+    height: 40px;
+}
+.mee span{
+    margin-left: 300px;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: rgb(197, 195, 195);
+    margin: 30px;
+    margin-left: 200px;
+}
+.boxer button{
+    background: none;
+    width: 150px;
+    height: 25px;
+    margin-left: 170px;
+    margin-top: -3px;
+}
+.box p{
+    font-size: 25px;
+}
+#boxes{
+    display: flex;
+    height: 200px;
+    /* margin-left: 300px; */
+}
+.boxer{
+    /* margin-left: 140px; */
+    text-align: center;
+}
+#last{
+    height: 400px;
+}
+.lasty{
+    text-align: center;
+}
+.lasty img{
+    width: 30px;
+    height: 30px;
+}
+.service{
+    font-size: 50px;
+}
+.lasty small{
+    color: red;
+    font-size: 20px;
+}
+.lasty span{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.lasty p{
+    font-size: 15px;
+}
+.lasty a{
+    color: aqua;
+}

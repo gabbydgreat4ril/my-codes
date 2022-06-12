@@ -1,0 +1,30 @@
+ /* .container{
+    background-color: #ccc;
+}
+[class*='col']{
+    background-color: lightblue;
+    border: 1px solid black;
+} */
+/* .mar{
+    margin-top: 200px !important;
+} */ 
+/* .carousel{
+margin-left: 500px;} */
+
+.carousel-caption{
+    animation: slide-up 5s;
+    /* animation-delay: 2s; */
+    animation-direction: alternate;
+}
+@keyframes slide-up{
+    0%{
+        opacity: 0.2;
+        line-height: 200px;
+        color: red;
+    }
+    100%{
+        opacity: 1;
+        line-height: 25px;
+        color: bisque;
+    }
+}

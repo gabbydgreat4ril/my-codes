@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #0a0908;
+    min-height: 70px;
+}
+#logo img{
+    width: 200px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+header li{
+    display: inline;
+    float: left;
+    padding: 30px;
+}
+header li a{
+    color:white;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+header li button{
+    background-color: rgb(240, 30, 240);
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+nav{
+    float: right;
+}
+/* first section */
+#firstsection{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)), url(./images/1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-position: top;
+    /* text-align: center; */
+}
+.first{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    padding-top: 150px;
+    padding-left: 400px;
+}
+.first .first1{
+    color: white;
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(240, 30, 240);;
+    border-radius: 100px;
+    text-align: center;
+}
+.first .first1 h1{
+    color:rgba(223, 167, 65, 0.863) ;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.first .first2{
+    color: white;
+    width: 250px;
+    height: 200px;
+    /* border: 2px solid red; */
+    font-weight: lighter;
+}
+.first .first2 .pink{
+    color: pink;
+}
+.first .first2 .yellow{
+    color: yellow;
+}
+.first .first2 .green{
+    color: greenyellow;
+}
+.first .first2 p{
+    color: rgba(180, 124, 19, 0.863);
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+.first .first2 small{
+    font-weight: bolder;
+}
+ /* second section */
+ .container{
+     height: 500px;
+     padding-top: 30px;
+     padding-left: 200px !important;
+ }
+ #secondsection{
+     background-color: white;
+ }
+ #secondsection img{
+    border-radius: 8px;
+}
+ .col-md-6{
+     height: 400px;
+ }
+ .col-md-6 h6{
+     color: rgb(236, 100, 123);
+ }
+ .col-md-6 big{
+     font-size: 40px;
+     border: 3px solid rgb(192, 190, 190);
+}
+/* third section */
+#thirdsection {
+    /* background-color: rgb(1, 1, 19); */
+    background-color: rgb(7, 7, 44);
+
+}
+#thirdsection img{
+    border: 8px solid white;
+    border-radius: 8px;
+}
+#thirdsection h1{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+#thirdsection p{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+/* fourth section */
+#fourthsection {
+    background-color: rgb(7, 7, 44);
+}
+#fourthsection img{
+    border: 8px solid white;
+    border-radius: 8px;
+}
+main{
+    background-color: rgb(7, 7, 44);
+}
+/* fifth section */
+#fifthsection{
+    background-color: rgb(66, 13, 209);
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+#fifthsection .md1{
+    background-color: rgb(69, 39, 151);
+    height: 50px;
+}
+#fifthsection .md2{
+    background-color: rgb(150, 83, 7);
+}
+#fifthsection .md3{
+    background-color: rgb(27, 162, 185);
+}
+#fifthsection .md4{
+    background-color: rgb(2, 83, 20);
+}
+/* sixst section */
+#sixthsection {
+    background-color: rgb(58, 58, 160);
+    height: 750px;
+}
+#sixthsection .nothy {
+    background-color: rgba(195, 194, 197, 0.61);
+    color: black;
+    width: 800px;
+    height: 150px;
+    margin-left: 140px;
+    border-radius: 5px;
+}
+#sixthsection img {
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border: 1px solid black;
+}
+#sixthsection .nothy label{
+    background-color: rgb(195, 196, 196);
+    width: 600px;
+    height: 100px;
+}
+/* #seventh section */
+#seventhsection{
+    background-color:wheat;
+    height: 600px;
+    text-align: center;
+    padding-left: 60px;
+}
+#seventhsection .container{
+    display: flex;
+    height: 100px;
+}
+#seventhsection h3{
+    color: rgb(27, 27, 133);
+}
+#seventhsection h2{
+    color: rgb(3, 3, 5);
+}
+#seventhsection h4{
+    color: rgb(211, 58, 109);
+}
+#seventhsection img{
+    width: 200px;
+    height: 75px;
+    padding-left: 50px;
+}
+/* eight section */
+#eightsection{
+    background-color: rgb(52, 52, 121);
+    text-align: center;
+    height: 600px;
+}
+#eightsection sub{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(233, 148, 51);
+}
+#eightsection .col2 sub{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(12, 61, 136);
+}
+#eightsection span{
+    color: rgb(248, 247, 246);
+}
+#eightsection .col-md-4{
+    height: 500px;
+}
+#eightsection p,h5,h2{
+    color: rgb(192, 190, 190);
+}
+#eightsection .col2{
+    background-color: rgb(143, 125, 27);
+    border: 2px solid none;
+    border-radius: 5px;
+}
+#eightsection .col2 h3{
+    color: blue;
+}
+#eightsection .col1 button{
+    background-color: rgb(231, 25, 231);
+    color: white;
+}
+#eightsection .col3 button{
+    background-color: rgb(231, 25, 231);;
+    color: white;
+}

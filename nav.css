@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #592600;
+    min-height: 70px;
+    color: #ffffff;
+    border-bottom: 3px solid orangered;
+}
+#logo img{
+    width: 150px;
+    height: 60px;
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+header li{
+    display: inline;
+    padding: 20px;
+    float: left;
+}
+header{
+    padding:0;
+    margin: 0;
+}
+nav{
+    float: right;
+}
+header li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+header li a:hover{
+    color: #000;
+}
+header .current{
+    color: yellow;
+}

@@ -1,0 +1,46 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+ #showcase{
+    background-image: linear-gradient( rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(./images/1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(0,0,0);
+    margin: 30px auto;
+    
+}
+#showcase h1{
+    color: rgb(80, 8, 8);
+    font-size: 50px;
+    padding-top: 200px;
+}
+#showcase p{
+    color: white;
+    font-size: 20px;
+}
+#showcase button{
+    background-color: rgb(8, 41, 8);
+    color: whitesmoke;
+    font-size: 17px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.diff{
+    font-style: italic;
+    color: rgb(49, 6, 6);
+    font-size: 20px;
+}
+.all{
+    text-align: center;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Images And Videos</title>
+    <link rel="stylesheet" href="midea.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <div class="social">
+      <img src="./images/01.jpg" alt="">
+      <img src="./images/01.jpg" alt="">
+      <img src="./images/01.jpg" alt="">
+      <img src="./images/01.jpg" alt="">
+      <img src="./images/01.jpg" alt="">
+    </div>
+  <div id="container">
+    <div id="slider">
+      <div class="slid" id="slid1">
+        <div class="content">
+          <div class="heading">
+            <h1>web desighn tutorial</h1>
+          </div>
+          <div class="line"></div>
+          <div class="des">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="slid" id="slid2">
+        <div class="content">
+          <div class="heading">
+            <h1>web desighn tutorial</h1>
+          </div>
+          <div class="line"></div>
+          <div class="des">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis.</p>
+          </div>
+        </div>
+      </div>
+      <div class="slid" id="slid3">
+        <div class="content">
+          <div class="heading">
+            <h1>web desighn tutorial</h1>
+          </div>
+          <div class="line"></div>
+          <div class="des">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit facilis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+          <!-- <img name="slide" id="slide" width="400" height="200"> -->
+    <script>
+      // var images=['images/12.png','images/13.png','images/14.png','images/15.png'];
+      //   var i=0;
+      //   function slide (){
+      //     document.getElementById('image').src=images[i];
+      //     if(i<images.length-1){
+      //       i++;
+      //     }else{
+      //       i=0;
+      //     }
+      //     setTimeout('slide()',2000);
+      //   }
+      //   window.onload=slide;
+        // var i=0;
+        // var Images=[];
+        // var times=3000;
+        // Images[0]='images/12.png';
+        // Images[1]='images/15.png';
+        // Images[2]='images/14.png';
+        // Images[3]='images/13.png';
+        
+        // function change(){
+        //   document.slide.src=Images[i];
+        //   if(i<Images.length-1){
+        //     i++;
+        //   }else{
+        //     i=0;
+        //   }
+        //   setTimeout('change()',times);
+        // }
+        // window.onload=change;
+        function marg1(){
+          var slider=document.querySelector('#slider');
+          slider.style.marginLeft='-100%';
+          function marg2(){
+          var slider=document.querySelector('#slider');
+          slider.style.marginLeft='-200%';
+          function marg0(){
+          var slider=document.querySelector('#slider');
+          slider.style.marginLeft='0';
+            setTimeout(marg1, 8000);
+        }
+            setTimeout(marg0, 8000);
+        }
+            setTimeout(marg2, 8000);
+        }
+            setTimeout(marg1, 8000);
+
+    </script>
+</body>
+</html>
